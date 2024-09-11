@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }*/
         botonMedia.setOnClickListener { v: View? ->
-            val intent = Intent(applicationContext, activity_media::class.java)
+            val intent = Intent(applicationContext, ActivityMedia::class.java)
             startActivity(intent)
         }
         botonVideo.setOnClickListener { v: View? ->
